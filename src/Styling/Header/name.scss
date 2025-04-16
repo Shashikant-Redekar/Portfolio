@@ -1,0 +1,26 @@
+.name{
+    //background-color: aqua;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    font-size: 2em;
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.designation{
+    //background-color: cadetblue;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    font-size: .83em;
+    color:grey;
+    font-family: "Lora", serif;
+    font-weight:400;
+    font-style: normal;
+}
+
+@media (max-width:450px){
+    .name{
+        font-size:1.4em;
+    }
+}

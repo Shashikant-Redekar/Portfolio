@@ -1,0 +1,16 @@
+.all{
+    display:grid;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(200, 197, 197);
+    padding-bottom:20px;
+    margin-bottom: 10px;
+}
+@media (max-width:500px){
+    .all{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

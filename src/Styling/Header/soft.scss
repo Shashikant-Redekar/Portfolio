@@ -1,0 +1,14 @@
+.soft{
+    height: 90px;
+}
+
+.softname{
+    display:flex;
+    align-items: center;
+}
+
+@media (max-width: 480px){
+    .soft{
+        height:48px;
+    }
+}

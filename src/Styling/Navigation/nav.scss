@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    display:flex;
+    justify-content: space-between;
+}
+
+.about{
+    padding-right:10px;
+}
+
+.project{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.project:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact{
+    padding-right:10px;
+}
+
+.contact:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mailaphone{
+    display:grid;
+    align-items: center;
+    justify-items: left;
+}
+
+.notmailaphone{
+    display:none;
+}
+
+@media (max-width:1030px){
+    .navbar{
+        display: grid;
+        align-items: center;
+        //justify-content: space-between;
+        justify-items: left;
+    }
+    
+    .link{
+        display:flex;
+        justify-content:left;
+        justify-items: left;
+    }
+    .project{
+        padding-left:0;
+    }
+}

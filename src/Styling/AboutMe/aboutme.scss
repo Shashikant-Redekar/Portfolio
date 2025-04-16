@@ -1,0 +1,42 @@
+.aboutme{
+    display: grid;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom: 7px;
+    background-color: rgb(221, 221, 221);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.aboutmeH{
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+    padding:7px;
+    margin-top:10px;
+    margin-bottom: 15px;
+}
+
+.aboutmeD{
+    font-family: "Lora", serif;
+    font-weight:600;
+    font-style: normal;
+    font-size: larger;
+}
+
+.aboutmeDi{
+    font-family: "Lora", serif;
+    font-weight:400;
+    font-style: italic;
+    font-size: larger;
+}
+
+@media (max-width: 480px){
+    .aboutme{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

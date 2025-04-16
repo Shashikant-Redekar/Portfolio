@@ -1,0 +1,85 @@
+.contacts{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.p{
+    font-family: "Lora", serif;
+    font-weight:400;
+    font-style: normal;
+}
+
+.a{
+    font-family: "Lora", serif;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    text-align: left;
+}
+.a:hover{
+    text-decoration: underline;
+}
+
+.maili{
+    height:50px;
+}
+
+.mailc{
+    justify-items: left;
+    width: 40%;
+    padding:10px;
+}
+
+.phonec{
+    justify-items: left;
+    width: 20%;
+    padding:10px;
+}
+
+.phonei{
+    height: 50px;
+
+}
+
+.linkc{
+    justify-items: left;
+    width: 40%;
+    padding:10px;
+    text-align: left;
+}
+
+
+.linkedini{
+    height:50px;
+}
+
+@media (max-width: 500px){
+    .contacts{
+        display:grid;
+    }
+    .p{
+       font-size: small;
+    }
+    .a{
+        font-size: small;
+    }
+    .phonec{
+        width:100%;
+    }
+    .linkc{
+        width:100%;
+    }
+    .mailc{
+        width:100%;
+    }
+    .maili{
+        height: 47px;
+    }
+    .phonei{
+        height: 47px;
+    }
+    .linkedini{
+        height: 47px;
+    }
+}

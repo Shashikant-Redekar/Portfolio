@@ -1,0 +1,54 @@
+.ss{
+    display: flex;
+    padding:30px;
+    background-color: grey;
+}
+
+.projectscreen{
+    width: 60%;
+    padding:10px;
+    background-color: rgb(221, 221, 221);
+}
+
+.ssd{
+    width:40%;
+    align-content: center;
+    padding:10px;
+    background-color: rgb(221, 221, 221);
+}
+
+.ssdH{
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:x-large;
+}
+
+.ssdD{
+    font-family: "Lora", serif;
+    font-weight:600;
+    font-style: normal;
+    font-size: medium;
+    text-align: left;
+}
+
+.ssdS{
+    font-family: "Lora", serif;
+    font-weight:400;
+    font-style: italic;
+    font-size: medium;
+    text-align: left;
+}
+
+@media (max-width:500px){
+    .ss{
+        display:grid;
+        padding:10px;
+    }
+    .projectscreen{
+        width:93%;
+    }
+    .ssd{
+        width:93%;
+    }
+}

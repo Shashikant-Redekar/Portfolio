@@ -1,0 +1,35 @@
+.headerc{
+    display: grid;
+    justify-items: left;
+    //padding-left:20px;
+    border-bottom: solid;
+    margin-right: 33.34%;
+}
+
+.headercH{
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.headercD{
+    font-family: "Lora", serif;
+    font-weight:400;
+    font-style: normal;
+    font-size: larger;
+    text-align: left;
+}
+
+@media (max-width: 500px){
+    .headercH{
+        font-size: 1.2em;
+    }
+    .headercD{
+        font-size: medium;
+    }
+    .headerc{
+        margin-right: 20%;
+    }
+}

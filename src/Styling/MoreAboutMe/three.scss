@@ -1,0 +1,15 @@
+.three{
+    margin:10px;
+    border-radius: 4%;
+    border: solid;
+    justify-items: left;
+    padding-left:10px;
+    text-align: left;
+    width:33.34%;
+}
+
+@media (max-width: 500px){
+    .three{
+        width: auto;
+    }
+}

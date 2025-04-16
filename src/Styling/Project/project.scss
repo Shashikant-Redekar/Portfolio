@@ -1,0 +1,26 @@
+.projects{
+    margin:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    padding-bottom:20px;
+}
+
+.projectH{
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+    color:white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+@media (max-width:500px) {
+    .projects{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        margin-top:0;
+    }
+}

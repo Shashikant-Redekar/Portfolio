@@ -1,0 +1,43 @@
+.navlink{
+    display:flex;
+    justify-content: space-between;
+    padding-left:50px;
+    padding-right:50px;
+    position:sticky;
+    top:132.4px;
+    background: white;
+    font-family: "Lora", serif;
+    z-index: 1;
+}
+
+.navbur{
+    display:flex;
+    justify-content: space-between;
+    padding-left:30px;
+    padding-right:30px;
+    position:sticky;
+    top:132.4px;
+    background: white;
+    font-family: "Lora", serif;
+}
+
+@media (max-width:1030px){
+    .navlink{
+        display: none;
+    }
+    .navbur{
+        display:inline;
+        position: fixed;
+        top:87px;
+        right:0;
+        left:0;
+        bottom:0;
+        justify-content:center;
+        background-color: white;
+        margin:0;
+        z-index: 1;
+    }
+    .navm{
+        height:151.2px;
+    }
+}

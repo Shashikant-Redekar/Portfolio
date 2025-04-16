@@ -1,0 +1,21 @@
+.d{
+    justify-self: center;
+}
+
+.dcv{
+    position:relative;
+    height: 50px;
+    width: 170px;
+    justify-self: center;
+    font-weight: normal;
+    font-family: "Lora", serif;
+    font-size: larger;
+    background-color: rgb(172, 170, 170);
+    border:solid white;
+}
+
+.dcv:hover{
+    cursor: pointer;
+    background-color: grey;
+    font-weight: bold;
+}
