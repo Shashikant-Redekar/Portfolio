@@ -2,6 +2,7 @@ import { Link } from "react-scroll";
 import '../../Styling/Navigation/nav.scss';
 import insta from '../../Img/instagram.png';
 import linkin from '../../Img/linkedin (1).png';
+import github from '../../Img/github.png';
 import '../../Styling/Navigation/linkin.scss';
 import '../../Styling/Navigation/insta.scss';
 import '../../Styling/Navigation/navlink.scss';
@@ -31,6 +32,9 @@ export const NavList = (props) => (
             <Phone />
         </div>
         <div className='link'>
+            <a href='https://github.com/Shashikant-Redekar'>
+                <img src={github} alt="icon" className='linkin' ></img>
+            </a>
             <a href='https://www.linkedin.com/in/shashikant-redekar-957273168/'>
                 <img src={linkin} alt="icon" className='linkin' ></img>
             </a>
