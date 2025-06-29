@@ -1,0 +1,16 @@
+.leftright{
+    height:50px;
+    background-color: rgb(172,255,209);
+}
+
+@media(max-width: 750px){
+    .leftright{
+        height:30px;
+    }
+}
+
+@media (max-width: 500px){
+    .leftright{
+        height: 20px;
+    }
+}

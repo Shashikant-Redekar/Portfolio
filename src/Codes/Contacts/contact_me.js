@@ -1,9 +1,9 @@
-import './Styling/ContactMe/header.scss';
-import './Styling/ContactMe/all.scss';
-import './Styling/ContactMe/contacts.scss';
-import call from './Img/phone.png';
-import mail from './Img/email.png';
-import linkedin from './Img/linkedin.png';
+import '../../Styling/ContactMe/header.scss';
+import '../../Styling/ContactMe/all.scss';
+import '../../Styling/ContactMe/contacts.scss';
+import call from '../../Img/phone.png';
+import mail from '../../Img/email.png';
+import linkedin from '../../Img/linkedin.png';
 
 export const ContactMe = () => (
     <div className='all'> 

@@ -1,0 +1,68 @@
+.cert{
+    margin: 20px;
+    background-color: rgb(172,255,209);
+}
+
+.certbody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.certAndName{
+    display: grid;
+    justify-items: center;
+}
+
+.arrowbutton{
+    border: none;
+    background-color: rgb(172,255,209);
+}
+
+.certName{
+    font-family: "Lora", serif;
+    font-weight:600;
+    font-size: larger;
+    font-style: normal;
+}
+
+.certimg{
+    padding: 20px;
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+}
+.certHeader{
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: left;
+    padding-left: 30px;
+}
+
+@media(max-width: 1345px){
+    .certimg{
+        width:77%;
+    }
+}
+
+@media(max-width: 750px){
+    .certimg{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 500px){
+    .certimg{
+        padding: 5px;
+        width: 77%;
+    }
+    .certName{
+        font-size: large;
+    }
+    .certHeader{
+        font-size: x-large;
+    }
+}

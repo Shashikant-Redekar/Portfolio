@@ -1,8 +1,8 @@
-import './Styling/MoreAboutMe/more.scss';
-import './Styling/MoreAboutMe/one.scss';
-import './Styling/MoreAboutMe/two.scss';
-import './Styling/MoreAboutMe/three.scss';
-import './Styling/MoreAboutMe/moreaboutmedetail.scss';
+import '../../Styling/MoreAboutMe/more.scss';
+import '../../Styling/MoreAboutMe/one.scss';
+import '../../Styling/MoreAboutMe/two.scss';
+import '../../Styling/MoreAboutMe/three.scss';
+import '../../Styling/MoreAboutMe/moreaboutmedetail.scss';
 
 export const MoreAboutMe = () => (
     <div className="more">

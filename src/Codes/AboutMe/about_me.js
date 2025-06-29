@@ -1,6 +1,6 @@
-import './Styling/AboutMe/aboutme.scss';
-import './Styling/AboutMe/downloadCV.scss';
-import pdf from './Img/ShashikantRedekarResume.pdf';
+import '../../Styling/AboutMe/aboutme.scss';
+import '../../Styling/AboutMe/downloadCV.scss';
+import pdf from '../../Img/ShashikantRedekarResume.pdf';
 
 export const AboutMe = () => (
     <div className="aboutme"> 
