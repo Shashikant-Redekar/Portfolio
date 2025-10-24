@@ -17,7 +17,7 @@ const Projects = function (){
         "A responsive, retro-themed calculator that supports:\n\n Basic Operations (+, -, x, /).\nBracket and negative numbers.\nCustom parser(no eval) using infix-to-postfix conversion.\nBackspace button.",
         "A clean and responsive to-do list app with:\n\nAdd, edit, delete and complete tasks.\nCheckboxes to mark task as done.\nLocal Storage to preserve tasks on refresh.\nFilter option: All, Active and complete.\nInline editing.\nDate display and clean layout for mobile and desktop."
     ];
-    const proSkills = ["Skills: JavaScript, HTML/CSS, React","Skills: JavaScript, HTML/CSS, React","Skills: JavaScript, DSA, HTML/CSS, React","SKills: JavaScript, React, Local Storage API, React Hooks, HTML/CSS."];
+    const proSkills = ["Skills: JavaScript, HTML/CSS, React, Node.js, Apollo Graph QL","Skills: JavaScript, HTML/CSS, React","Skills: JavaScript, DSA, HTML/CSS, React","SKills: JavaScript, React, Local Storage API, React Hooks, HTML/CSS."];
     const tags=["#","https://shashikant-redekar.github.io/Landing_page/","https://calculator0998.netlify.app/","https://shashikant-redekar.github.io/to-do/"]
 
     let [display, setDisplay] = useState(0);
