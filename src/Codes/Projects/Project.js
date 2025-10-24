@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Up from '../../Img/up.png';
 import Down from '../../Img/down.png';
-import Projectscreen from '../../Img/Capture.PNG';
+import Projectscreen from '../../Img/Capture.png';
 import Calculator from '../../Img/calculator.png';
 import Landing from '../../Img/landing.png';
 import Todo from '../../Img/todo.png';
